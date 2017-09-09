@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoApplication {
     @RequestMapping(value = "/user")
+
+    //这是一个测试
     public String fiestBoot(){
         return "hello , boot";
     }
